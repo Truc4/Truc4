@@ -4,28 +4,24 @@ Full-stack software developer obsessed with game design, language implementation
 
 ## Projects
 
+### [arche](https://github.com/Truc4/arche)
+
+**Data-Oriented Programming Language**
+
+- Think about data as groups, not objects
+- Columnar arrays with fixed, static memory allocation, no dynamic growth
+- No handle/pointer nesting in data structures; everything laid out flat and explicit
+- Prioritizes fast, predictable memory access over having a minimal memory footprint
+
+Currently in alpha with lexer, parser, semantic analysis, and LLVM code generation.
+
+---
+
 ### [oflecs](https://github.com/Truc4/oflecs)
 
 **Flecs Bindings for Odin**
 
 Native Flecs ECS framework bindings for the Odin programming language. Uses odin-c-bindgen for low-level binding generation paired with a handwritten wrapper layer that emphasizes data-oriented design over object-oriented patterns. Explicit world ownership through struct-based handles, automatic component registration on first use, and minimal hidden state.
-
----
-
-### [arche](https://github.com/Truc4/arche)
-
-**Experimental Data-Oriented Programming Language**
-
-A minimal language centered on "processing collections of structured data as a whole—not one element at a time." Rejects classes, inheritance, and implicit iteration in favor of explicit data access (`players.pos[i]` not `player[i]`).
-
-**Core Concepts:**
-
-- Worlds hold archetypes; archetypes store aligned columns and metadata
-- Procedures for orchestration, Systems for automatic data transformation, Functions for pure computation
-- Numeric-only type system with zero-as-false semantics
-- Philosophy: clarity and structural visibility over flexibility
-
-**Status:** Experimental, not production-ready. Serves as a vehicle for exploring data-oriented language design.
 
 ---
 
