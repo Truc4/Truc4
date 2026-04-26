@@ -1,6 +1,6 @@
 # Truc4
 
-Full-stack software developer obsessed with game design, language implementation, and low-level systems. Spend my free time building engines, experimenting with programming languages, and exploring data-oriented design.
+Software engineer obsessed with game design and development. Spend my free time building engines, and experimenting with new paradigms.
 
 ## Projects
 
